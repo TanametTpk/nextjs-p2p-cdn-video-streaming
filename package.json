@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "hls.js": "^0.14.16",
     "next": "10.0.1",
+    "p2p-media-loader-core": "^0.6.2",
+    "p2p-media-loader-hlsjs": "^0.6.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/hls.js": "^0.13.2",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "typescript": "^4.0.5"
   }
 }
